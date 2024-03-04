@@ -54,6 +54,7 @@ export class AuthService {
         } catch (error) {  
             
             console.log("Appwrite service :: Logout :: error", error);
+            // console.log("normal testing")
         }
     }
 }
