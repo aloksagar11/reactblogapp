@@ -24,10 +24,7 @@ const Signup = () => {
                     useDispatch(authLogin(userData));
                     navigate('/');
                 }
-            }
-
-            
-            
+            }            
         } catch (error) {
             setError(error.message);
         }
